@@ -47,29 +47,38 @@ knitr::include_graphics("images/referensi.png")
 **Catatan:** Kesalahan #SPILL dikembalikan saat rumus mengembalikan beberapa hasil, dan Excel tidak bisa mengembalikan hasil ke Cell. Operator rentang `:` ini tidak dapat berdiri sendiri.
 
 
-## Dasar Persamaan Linear
+## Sistem Persamaan Linear
 
 Sebagai contoh ada dua persamaan linier yaitu 
 
-* $Y_1 = 10 -2X$ dan 
-* $Y_2 = 2 + 2X$ , 
+* $y_1 = 10 -2x$ dan 
+* $y_2 = 2 + 2x$ , 
 
 maka sistem persamaan linier tersebut adalah
 
-**Langkah pertama**, mencari nilai $X:$
+**Langkah 1**, mencari nilai $x:$
 
-* Y_1=Y_2
-* 10-2X=2+2X
-* 10-2x-2-2X=0
-* 8 = 4X
-* X = 8/4=2
+\[
+\begin{aligned}
+y_1   &= y_2 \\
+10-2x &= 2+2x\\
+10-2x-2-2x &= 0 \\
+-4x &= -8\\
+x &= {8\over 4} \\
+x &= 2 \\
+\end{aligned}
+\]
 
-**Langkah 2**, mencari Nilai $Y,$
+**Langkah 2**, mencari Nilai $y,$
 
-diktehui nilai pertemuan pada $X=2$, maka dimasukan dalam persamaan pertama yaitu
+diktehui nilai pertemuan pada $x=2$, maka dimasukan dalam persamaan pertama yaitu
 
-* Y_1= 10-2X
-* Y_1=10-2.2 = 6
+\[
+\begin{aligned}
+y &= 10-2x \\
+y &= 10-(2 \times 2)
+\end{aligned}
+\]
 
 Jadi nilai persamaan 1 dan 2 adalah $x=2$ dan $y=6$ atau pada koordinat (2,6). Jadi kesimpulanya adalah Tujuan dari sietem persamaan Linier adalah mencari nilai pertemuan antara dua persamaan garis lurus, yang dapat dicari gengan menggunakan metode Substitusi dan metode eliminasi.
 

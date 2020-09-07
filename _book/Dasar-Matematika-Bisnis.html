@@ -79,7 +79,7 @@
 <li class="chapter" data-level="1.2" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#operator-aritmetika"><i class="fa fa-check"></i><b>1.2</b> Operator Aritmetika</a></li>
 <li class="chapter" data-level="1.3" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#operator-perbandingan"><i class="fa fa-check"></i><b>1.3</b> Operator Perbandingan</a></li>
 <li class="chapter" data-level="1.4" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#operator-referensi"><i class="fa fa-check"></i><b>1.4</b> Operator Referensi</a></li>
-<li class="chapter" data-level="1.5" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#dasar-persamaan-linear"><i class="fa fa-check"></i><b>1.5</b> Dasar Persamaan Linear</a></li>
+<li class="chapter" data-level="1.5" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#sistem-persamaan-linear"><i class="fa fa-check"></i><b>1.5</b> Sistem Persamaan Linear</a></li>
 <li class="chapter" data-level="1.6" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#latihan-1"><i class="fa fa-check"></i><b>1.6</b> Latihan 1</a><ul>
 <li class="chapter" data-level="" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#kasus-1.1"><i class="fa fa-check"></i>Kasus 1.1</a></li>
 <li class="chapter" data-level="" data-path="Dasar-Matematika-Bisnis.html"><a href="Dasar-Matematika-Bisnis.html#kasus-1.2"><i class="fa fa-check"></i>Kasus 1.2</a></li>
@@ -157,28 +157,33 @@ Figure 1.3: Operator Referensi
 </div>
 <p><strong>Catatan:</strong> Kesalahan #SPILL dikembalikan saat rumus mengembalikan beberapa hasil, dan Excel tidak bisa mengembalikan hasil ke Cell. Operator rentang <code>:</code> ini tidak dapat berdiri sendiri.</p>
 </div>
-<div id="dasar-persamaan-linear" class="section level2">
-<h2><span class="header-section-number">1.5</span> Dasar Persamaan Linear</h2>
+<div id="sistem-persamaan-linear" class="section level2">
+<h2><span class="header-section-number">1.5</span> Sistem Persamaan Linear</h2>
 <p>Sebagai contoh ada dua persamaan linier yaitu</p>
 <ul>
-<li><span class="math inline">\(Y_1 = 10 -2X\)</span> dan</li>
-<li><span class="math inline">\(Y_2 = 2 + 2X\)</span> ,</li>
+<li><span class="math inline">\(y_1 = 10 -2x\)</span> dan</li>
+<li><span class="math inline">\(y_2 = 2 + 2x\)</span> ,</li>
 </ul>
 <p>maka sistem persamaan linier tersebut adalah</p>
-<p><strong>Langkah pertama</strong>, mencari nilai <span class="math inline">\(X:\)</span></p>
-<ul>
-<li>Y_1=Y_2</li>
-<li>10-2X=2+2X</li>
-<li>10-2x-2-2X=0</li>
-<li>8 = 4X</li>
-<li>X = 8/4=2</li>
-</ul>
-<p><strong>Langkah 2</strong>, mencari Nilai <span class="math inline">\(Y,\)</span></p>
-<p>diktehui nilai pertemuan pada <span class="math inline">\(X=2\)</span>, maka dimasukan dalam persamaan pertama yaitu</p>
-<ul>
-<li>Y_1= 10-2X</li>
-<li>Y_1=10-2.2 = 6</li>
-</ul>
+<p><strong>Langkah 1</strong>, mencari nilai <span class="math inline">\(x:\)</span></p>
+<p><span class="math display">\[
+\begin{aligned}
+y_1   &amp;= y_2 \\
+10-2x &amp;= 2+2x\\
+10-2x-2-2x &amp;= 0 \\
+-4x &amp;= -8\\
+x &amp;= {8\over 4} \\
+x &amp;= 2 \\
+\end{aligned}
+\]</span></p>
+<p><strong>Langkah 2</strong>, mencari Nilai <span class="math inline">\(y,\)</span></p>
+<p>diktehui nilai pertemuan pada <span class="math inline">\(x=2\)</span>, maka dimasukan dalam persamaan pertama yaitu</p>
+<p><span class="math display">\[
+\begin{aligned}
+y &amp;= 10-2x \\
+y &amp;= 10-(2 \times 2)
+\end{aligned}
+\]</span></p>
 <p>Jadi nilai persamaan 1 dan 2 adalah <span class="math inline">\(x=2\)</span> dan <span class="math inline">\(y=6\)</span> atau pada koordinat (2,6). Jadi kesimpulanya adalah Tujuan dari sietem persamaan Linier adalah mencari nilai pertemuan antara dua persamaan garis lurus, yang dapat dicari gengan menggunakan metode Substitusi dan metode eliminasi.</p>
 <p>Contoh juga juga dapat diselesaikan dengan menggunakan Excel. persamaan diatas dapat kita sederhanakan menjadi sistem persamaan linear berikut ini:</p>
 <ul>
