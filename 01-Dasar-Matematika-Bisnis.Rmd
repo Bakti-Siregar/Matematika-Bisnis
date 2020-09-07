@@ -96,7 +96,7 @@ Dalam notasi matriks, ini dapat ditulis sebagai $AX = B$
 \]
 
 
-Jika A-1 (kebalikan dari A) ada, kita dapat mengalikan kedua sisi dengan A-1 untuk mendapatkan X = A-1B. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](). 
+Jika A-1 (kebalikan dari A) ada, kita dapat mengalikan kedua sisi dengan A-1 untuk mendapatkan X = A-1B. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx). Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
 
 
 ## Latihan 1 
@@ -105,7 +105,7 @@ Jika A-1 (kebalikan dari A) ada, kita dapat mengalikan kedua sisi dengan A-1 unt
 Andaikan diketahui harga menu Kopi Dari Hati di Toko A dan Toko B secara berturut-turut pada cell A dan B yang terlampir pada gambar \@ref(fig:tabel1), lakukan evaluasi operasi matematika dasar untuk melengkapi laporan tersebut. 
 
 
-```{r tabel1, echo=FALSE,fig.align='center', fig.cap="Harga Menu Toko A dan B", out.width = '80%'}
+```{r tabel1, echo=FALSE,fig.align='center', fig.cap="Harga Menu Toko A dan B", out.width = '100%'}
 knitr::include_graphics("images/tabel1.png")
 ```
 
@@ -113,7 +113,7 @@ knitr::include_graphics("images/tabel1.png")
 
 Diberikan daftar Karyawan PT. Kopi Dari Hati ~ Cabang Tangerang, September 2020, pada gambar \@ref(fig:tabel2). Pada bagian ini digunakan fungsi seperti SUM, MIN, AVERAGE, dan MAX.
 
-```{r tabel2, echo=FALSE,fig.align='center', fig.cap="Daftar Karyawan", out.width = '80%'}
+```{r tabel2, echo=FALSE,fig.align='center', fig.cap="Daftar Karyawan", out.width = '100%'}
 knitr::include_graphics("images/tabel2.png")
 ```
 
@@ -129,7 +129,7 @@ knitr::include_graphics("images/tabel2.png")
 
 Pada bagian ini anda diharapkan untuk mampu menerapkan Fungsi VLOOKUP untuk mengitung Harga Penjualan Kopi Dari Hati, lihat gambar \@ref(fig:tabel3).
 
-```{r tabel3, echo=FALSE,fig.align='center', fig.cap="Harga Penjualan Kopi Dari Hati", out.width = '80%'}
+```{r tabel3, echo=FALSE,fig.align='center', fig.cap="Harga Penjualan Kopi Dari Hati", out.width = '100%'}
 knitr::include_graphics("images/tabel3.png")
 ```
 **Catatan:**
@@ -142,7 +142,7 @@ Vlookup merupakan fasilitas dari Microsoft Excel yakni mengambil data yang ada d
 
 Pada bagian ini anda diharapkan untuk mampu menerapkan Kombinasi Fungsi VLOOKUP dan HLOOKUP untuk Mengitung Daftar Gaji Karyawan Kopi Dari Hati, lihat gambar \@ref(fig:tabel4).
 
-```{r tabel4, echo=FALSE,fig.align='center', fig.cap="Gaji Karyawan Kopi Dari Hati", out.width = '80%'}
+```{r tabel4, echo=FALSE,fig.align='center', fig.cap="Gaji Karyawan Kopi Dari Hati", out.width = '100%'}
 knitr::include_graphics("images/tabel4.png")
 ```
 
@@ -157,7 +157,7 @@ knitr::include_graphics("images/tabel4.png")
 
 Pada bagian ini anda diharapkan untuk mampu menerapkan Fungsi IF Tunggal dan IF Majemuk untuk melengkapi Daftar Mahasiswa/i Manajemen Universitas Matana 2020 pada gambar \@ref(fig:tabel5).
 
-```{r tabel5, echo=FALSE,fig.align='center', fig.cap="Daftar Mahasiswa/i", out.width = '80%'}
+```{r tabel5, echo=FALSE,fig.align='center', fig.cap="Daftar Mahasiswa/i", out.width = '100%'}
 knitr::include_graphics("images/tabel5.png")
 ```
 

@@ -237,6 +237,80 @@ Pada bagian ini ada diharapakan untuk dapat menggunakan penggabungan rentang sel
 
 \textbf{Catatan:} Kesalahan \#SPILL dikembalikan saat rumus mengembalikan beberapa hasil, dan Excel tidak bisa mengembalikan hasil ke Cell. Operator rentang \texttt{:} ini tidak dapat berdiri sendiri.
 
+\hypertarget{dasar-persamaan-linear}{%
+\section{Dasar Persamaan Linear}\label{dasar-persamaan-linear}}
+
+Sebagai contoh ada dua persamaan linier yaitu
+
+\begin{itemize}
+\tightlist
+\item
+  \(Y_1 = 10 -2X\) dan
+\item
+  \(Y_2 = 2 + 2X\) ,
+\end{itemize}
+
+maka sistem persamaan linier tersebut adalah
+
+\textbf{Langkah pertama}, mencari nilai \(X:\)
+
+\begin{itemize}
+\tightlist
+\item
+  Y\_1=Y\_2
+\item
+  10-2X=2+2X
+\item
+  10-2x-2-2X=0
+\item
+  8 = 4X
+\item
+  X = 8/4=2
+\end{itemize}
+
+\textbf{Langkah 2}, mencari Nilai \(Y,\)
+
+diktehui nilai pertemuan pada \(X=2\), maka dimasukan dalam persamaan pertama yaitu
+
+\begin{itemize}
+\tightlist
+\item
+  Y\_1= 10-2X
+\item
+  Y\_1=10-2.2 = 6
+\end{itemize}
+
+Jadi nilai persamaan 1 dan 2 adalah \(x=2\) dan \(y=6\) atau pada koordinat (2,6). Jadi kesimpulanya adalah Tujuan dari sietem persamaan Linier adalah mencari nilai pertemuan antara dua persamaan garis lurus, yang dapat dicari gengan menggunakan metode Substitusi dan metode eliminasi.
+
+Contoh juga juga dapat diselesaikan dengan menggunakan Excel. persamaan diatas dapat kita sederhanakan menjadi sistem persamaan linear berikut ini:
+
+\begin{itemize}
+\tightlist
+\item
+  \(2x + y = 10\)
+\item
+  \(-2x +y = 2\)
+\end{itemize}
+
+Dalam notasi matriks, ini dapat ditulis sebagai \(AX = B\)
+
+\[ A=
+\begin{bmatrix}
+    2 & 1 &  \\
+   -2 & 1 
+\end{bmatrix}, 
+\begin{bmatrix}
+    x  \\
+   y 
+\end{bmatrix},
+\begin{bmatrix}
+    10  \\
+   2 
+\end{bmatrix}
+\]
+
+Jika A-1 (kebalikan dari A) ada, kita dapat mengalikan kedua sisi dengan A-1 untuk mendapatkan X = A-1B. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada \href{https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx}{file Exel ini}. Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
+
 \hypertarget{latihan-1}{%
 \section{Latihan 1}\label{latihan-1}}
 
@@ -259,13 +333,132 @@ Andaikan diketahui harga menu Kopi Dari Hati di Toko A dan Toko B secara berturu
 \subsection*{Kasus 1.2}\label{kasus-1.2}}
 \addcontentsline{toc}{subsection}{Kasus 1.2}
 
+Diberikan daftar Karyawan PT. Kopi Dari Hati \textasciitilde{} Cabang Tangerang, September 2020, pada gambar \ref{fig:tabel2}. Pada bagian ini digunakan fungsi seperti SUM, MIN, AVERAGE, dan MAX.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/tabel2} 
+
+}
+
+\caption{Daftar Karyawan}\label{fig:tabel2}
+\end{figure}
+
+\textbf{Keterangan:}
+
+\begin{itemize}
+\tightlist
+\item
+  Upah Kerja (Kotor) = Jam Kerja x 25000
+\item
+  Upah Lembur = Jam Lembur x 30000
+\item
+  Total Upah = Upah Kerja + Upah Lembur
+\item
+  Pajak = Total Upah x 5\%
+\item
+  Total Upah (Netto) = Total Upah -- Pajak
+\end{itemize}
+
 \hypertarget{kasus-1.3}{%
 \subsection*{Kasus 1.3}\label{kasus-1.3}}
 \addcontentsline{toc}{subsection}{Kasus 1.3}
 
+Pada bagian ini anda diharapkan untuk mampu menerapkan Fungsi VLOOKUP untuk mengitung Harga Penjualan Kopi Dari Hati, lihat gambar \ref{fig:tabel3}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/tabel3} 
+
+}
+
+\caption{Harga Penjualan Kopi Dari Hati}\label{fig:tabel3}
+\end{figure}
+
+\textbf{Catatan:}
+
+Vlookup merupakan fasilitas dari Microsoft Excel yakni mengambil data yang ada di tabel lain (tabel Array) berdasarkan data yang sesuai dengan tabel. Selain Vlookup ada juga Hlookup, perbedaannya adalah VLOOKUP digunakan untuk tabel secara Vertikal sedangkan HLOOKUP yaitu pemanggilan tabel array secara Horizontal.
+
 \hypertarget{kasus-1.4}{%
 \subsection*{Kasus 1.4}\label{kasus-1.4}}
 \addcontentsline{toc}{subsection}{Kasus 1.4}
+
+Pada bagian ini anda diharapkan untuk mampu menerapkan Kombinasi Fungsi VLOOKUP dan HLOOKUP untuk Mengitung Daftar Gaji Karyawan Kopi Dari Hati, lihat gambar \ref{fig:tabel4}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/tabel4} 
+
+}
+
+\caption{Gaji Karyawan Kopi Dari Hati}\label{fig:tabel4}
+\end{figure}
+
+\textbf{Keterangan:}
+
+\begin{itemize}
+\tightlist
+\item
+  Untuk gaji sesuai dengan gologan berdasarkan tabel gaji
+\item
+  Total Gaji =Gaji Pokok+Tunjangan+Transportasi
+\item
+  Pajak=Total Gaji x Pajak
+\item
+  Gaji Bersih= Total Gaji -- Pajak
+\end{itemize}
+
+\hypertarget{kasus-1.5}{%
+\subsection*{Kasus 1.5}\label{kasus-1.5}}
+\addcontentsline{toc}{subsection}{Kasus 1.5}
+
+Pada bagian ini anda diharapkan untuk mampu menerapkan Fungsi IF Tunggal dan IF Majemuk untuk melengkapi Daftar Mahasiswa/i Manajemen Universitas Matana 2020 pada gambar \ref{fig:tabel5}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/tabel5} 
+
+}
+
+\caption{Daftar Mahasiswa/i}\label{fig:tabel5}
+\end{figure}
+
+\textbf{Keterangan:}
+
+\begin{itemize}
+\item
+  Grade :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Grade A for Marks 90 -- 100,
+  \item
+    Grade B for marks 80 -- 89,
+  \item
+    Grade C for marks 70 -- 79,
+  \item
+    Grade D for marks 60 -- 69,
+  \item
+    Grade E for \textless{} 60
+  \end{itemize}
+\item
+  Status :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    if grade 75 is Complete,
+  \item
+    if grade \textless{} 75 is Failed
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{kasus-1.6}{%
+\subsection*{Kasus 1.6}\label{kasus-1.6}}
+\addcontentsline{toc}{subsection}{Kasus 1.6}
+
+Selesaikan sistem persamaan linear dengan menggunakan Excel.
 
   \bibliography{book.bib,packages.bib}
 
