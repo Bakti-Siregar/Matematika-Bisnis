@@ -49,6 +49,15 @@ knitr::include_graphics("images/referensi.png")
 
 ## Sistem Persamaan Linear
 
+Sistem persamaan linear adalah persamaan-persamaan linear yang dikorelasikan untuk membentuk suatu sistem. Sistem persamaannya bisa terdiri dari satu variabel, dua variabel atau lebih. Dalam bahasan ini, kita hanya membahas sistem persamaan linear dengan dua dan tiga variabel.
+
+### Sistem Persamaan Linear Dua Variabel (SPLDV)
+
+Sistem persamaan linear dua variabel adalah sistem persamaan linear yang terdiri dari dua persamaan dimana masing-masing persamaan memiliki dua variabel. Bentuk umum SPLDV dengan variabel x dan y:
+
+
+
+
 Sebagai contoh ada dua persamaan linier yaitu 
 
 * $y_1 = 10 -2x$ dan 
@@ -105,7 +114,7 @@ Dalam notasi matriks, ini dapat ditulis sebagai $AX = B$
 \]
 
 
-Jika A-1 (kebalikan dari A) ada, kita dapat mengalikan kedua sisi dengan A-1 untuk mendapatkan X = A-1B. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx). Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
+Jika $A^{-1}$ (kebalikan dari matrikx $A$) ada, kita dapat mengalikan kedua sisi dengan $A^{-1}$ untuk mendapatkan $X = A^{-1}B$. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx). Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
 
 
 ## Latihan 1 
