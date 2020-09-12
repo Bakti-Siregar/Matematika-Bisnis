@@ -114,7 +114,7 @@ Dalam notasi matriks, ini dapat ditulis sebagai $AX = B$
 \]
 
 
-Jika $A^{-1}$ (kebalikan dari matrikx $A$) ada, kita dapat mengalikan kedua sisi dengan $A^{-1}$ untuk mendapatkan $X = A^{-1}B$. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx). Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
+Jika $A^{-1}$ (kebalikan dari matriks $A$) ada, kita dapat mengalikan kedua sisi dengan $A^{-1}$ untuk mendapatkan $X = A^{-1}B$. Untuk mengatasi sistem persamaan linear dengan Microsoft Excel, jalankan langkah-langkah yang terlampir pada [file Exel ini](https://github.com/Bakti-Siregar/Matematika-Bisnis/raw/master/data/dasar-matematika-bisnis.xlsx). Perlu dicatat bahwa dalam file ini juga terlampir Soal kasus 1.1 s/d kasus 1.6.
 
 
 ## Latihan 1 
