@@ -5,8 +5,8 @@ account: BaktiSiregar
 server: bookdown.org
 hostUrl: https://bookdown.org/__api__
 appId: 5404
-bundleId: 27921
+bundleId: 27931
 url: https://bookdown.org/BaktiSiregar/matematika-bisnis/
-when: 1599887374.17441
+when: 1599904018.04741
 asMultiple: FALSE
 asStatic: TRUE
