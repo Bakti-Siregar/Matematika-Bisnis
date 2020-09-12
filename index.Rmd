@@ -56,8 +56,8 @@ Buku ini dituliskan untuk mempermudah proses pembelajaran Matematika Bisnis di U
 Adapun Materi yang akan dibahas dalam buku ini adalah sebagai berikut:
 
 * Minggu 1 ~ Pengenalan Matematika Bisnis
-* Minggu 2 ~ Dasar-dasar Matematika Bisnis
-* Minggu 3 ~ Aplikasi Manajemen Bisnis Umum
+* Minggu 2 ~ Dasar Matematika Bisnis
+* Minggu 3 ~ Matematika Manajemen Bisnis 
 * Minggu 4 ~ Sumber Daya Manusia dan Aplikasi Ekonomi
 * Minggu 5 ~ Dasar-dasar Pemasaran dan Akuntansi
 * Minggu 6 ~ Aplikasi Pemasaran
