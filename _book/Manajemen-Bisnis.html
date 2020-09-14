@@ -93,7 +93,10 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html"><i class="fa fa-check"></i><b>3</b> Manajemen Bisnis</a><ul>
-<li class="chapter" data-level="3.1" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#rata-rata"><i class="fa fa-check"></i><b>3.1</b> Rata-rata</a></li>
+<li class="chapter" data-level="3.1" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#rata-rata"><i class="fa fa-check"></i><b>3.1</b> Rata-rata</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#nilai-rata-rata-dengan-penambahan-data"><i class="fa fa-check"></i><b>3.1.1</b> Nilai Rata-Rata dengan Penambahan Data</a></li>
+<li class="chapter" data-level="3.1.2" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#nilai-rata-rata-dengan-pengurangan-data"><i class="fa fa-check"></i><b>3.1.2</b> Nilai Rata-Rata dengan Pengurangan Data</a></li>
+</ul></li>
 <li class="chapter" data-level="3.2" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#rasio"><i class="fa fa-check"></i><b>3.2</b> Rasio</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#fungsi-analisis-rasio"><i class="fa fa-check"></i><b>3.2.1</b> Fungsi Analisis Rasio</a></li>
 <li class="chapter" data-level="3.2.2" data-path="Manajemen-Bisnis.html"><a href="Manajemen-Bisnis.html#tujuan-analisis-rasio"><i class="fa fa-check"></i><b>3.2.2</b> Tujuan Analisis Rasio</a></li>
@@ -139,8 +142,139 @@
 <p>Bab ini mencakup beberapa perhitungan matematika yang sering ditemukan dalam manajeman bisnis secara umum, dapat diterapkan diberbagai profesi bisnis seperti halnya Marketing (Pemasaran), Akuntansi, Produksi, Sumber Daya Manusia (HRD), Ekonomi, Keuangan, Analis Bisnis, dll. Dalam hal ini, saya mengasumsikan anda ingin menjadi owner/manajer perusahaan yang sukses, Anda perlu memahami beberapa hal mendasar dalam matematika bisnis seperti;</p>
 <div id="rata-rata" class="section level2">
 <h2><span class="header-section-number">3.1</span> Rata-rata</h2>
-<p>Rata-rata nilai (besaran) yang diperoleh dari hasil jumlah tiap data dibagi dengan banyaknya data, nilai tersebut secara lumrah digunakan menjadi acuan untuk mewakili sekumpulan data.</p>
-<p><strong>Contoh:</strong> Pemilik perusahaan (Direksi/Manajemen) seringkali mempertanyakan, “Berapa rata-rata penjualan Marketing setiap Tahun,bulan, minggu, bahkan hingga harian”.</p>
+<p>Rata-rata nilai (besaran) yang diperoleh dari hasil jumlah tiap data dibagi dengan banyaknya data, nilai tersebut secara lumrah digunakan menjadi acuan untuk mewakili sekumpulan data. Pada saatnya nanti, ketika anda bekerja disuatu perusahaan, Manajer atau anda sendiri akan seringkali mempertanyakan, “Berapa rata-rata penjualan perusahaan kita setiap Tahun,bulan, minggu, bahkan hingga harian”.</p>
+<p>Perlu diketahui bahwa nilai rata-rata biasanya digunakan untuk mengevaluasi data sehingga lebih cepat dan menggambarkan seluruh data serta tidak dapat digunakan untuk menentukan nilai data tertentu di antara sekelompok data, sebagai contoh misalnya nilai rata-rata budi yaitu 85 jadi tidak bisa disimpulkan bahwa nilai untuk pelajaran Matematika Budi lebih dari 75. Nilai rata-rata tersebut bisa dipakai untuk membandingkan kelompok data yang satu dengan yang lainnya, seperti yg nilai rata-rata kelas yaitu 85 sedangkan nilai rata-rata kelas B yaitu 87 itu berarti kelas B lebih tinggi daripada kelas A.</p>
+<p>Berikut rumus cara menghitung nilai rata-rata pada suatu kelompok,</p>
+<p><span class="math display">\[ \small{ \text{Nilai Rata-rata}= {\text{Jumlah Nilai} \over \text{Banyak Data}} }\]</span></p>
+<p>Berikut ini data nilai tes kuliah Matematika Bisnis 10 mahasiswa/i, kita akan menghitung nilai rata-rata yang diperoleh.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">No</th>
+<th align="center">Nama</th>
+<th align="center">Nilai</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="center">Eka Baper Sendiri</td>
+<td align="center">85</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="center">Putri Woles Aja</td>
+<td align="center">78</td>
+</tr>
+<tr class="odd">
+<td align="left">3</td>
+<td align="center">Bagus Sipemuja Mantan</td>
+<td align="center">90</td>
+</tr>
+<tr class="even">
+<td align="left">4</td>
+<td align="center">Neneng Gadis Desa</td>
+<td align="center">75</td>
+</tr>
+<tr class="odd">
+<td align="left">5</td>
+<td align="center">Adi Korban Pelakor</td>
+<td align="center">92</td>
+</tr>
+<tr class="even">
+<td align="left">6</td>
+<td align="center">Bintang Bete</td>
+<td align="center">85</td>
+</tr>
+<tr class="odd">
+<td align="left">7</td>
+<td align="center">Toni Raja Kepo</td>
+<td align="center">85</td>
+</tr>
+<tr class="even">
+<td align="left">8</td>
+<td align="center">Rina Capedeh</td>
+<td align="center">82</td>
+</tr>
+<tr class="odd">
+<td align="left">9</td>
+<td align="center">Romy Kuper Abis</td>
+<td align="center">96</td>
+</tr>
+<tr class="even">
+<td align="left">10</td>
+<td align="center">Andika Pehape</td>
+<td align="center">90</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Jumlah nilai} &amp;= 85 + 78 + 90 + 75 + 92 + 85 + 85 + 82 + 96 + 90 = 858 \\
+\text{Jumlah data} &amp; = 10\\
+\text{Nilai rata-rata} &amp; = 858/10 = 85,8
+\end{aligned}
+}
+\]</span></p>
+<p>Jadi nilai rata-rata pelajaran Matematika 10 siswa tersebut adalah 85,8.</p>
+<div id="nilai-rata-rata-dengan-penambahan-data" class="section level3">
+<h3><span class="header-section-number">3.1.1</span> Nilai Rata-Rata dengan Penambahan Data</h3>
+<p>Apabila ada tambahan data maka jumlah nilai serta banyaknya data menjadi berubah. Jika ada penambahan satu data dengan nilai <span class="math inline">\(a\)</span> maka,</p>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Jumlah nilai sekarang} &amp;= \text{Jumlah nilai} + a \\ 
+\text{Banyaknya data sekarang} &amp; = \text{Banyaknya data} + 1 
+\end{aligned}
+}
+\]</span></p>
+<p>Contoh lainnya, misalkan ada penambahan dua data dengan nilai <span class="math inline">\(a_1\)</span> dan <span class="math inline">\(a_2\)</span> maka</p>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Jumlah nilai sekarang} &amp; = \text{Jumlah nilai} + (a_1 + a_2) \\ 
+\text{Banyaknya data sekarang} &amp; = \text{Banyaknya data} + 2
+\end{aligned}
+}
+\]</span></p>
+<p>Sebagai contoh misalnya jika diketahui nilai rata-rata dari sekelompok data ditambah data tambahan. Misal diketahui nilai rata-rata tes mata pelajaran Bahasa Indonesia dari 8 orang Mahasiswa/i adalah 86.</p>
+<p>Dua orang Mahasiswa/i tidak hadir saat tes dan mengikuti tes susulan, masing masing mendapat nilai 100 dan 87. Kita akan menghitung nilai rata-rata dari 10 orang Mahasiswa/i tersebut.</p>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Nilai rata-rata} &amp; = \text{Jumlah nilai/banyaknya data} \\
+\text{Jumlah nilai} &amp; = \text{(Nilai rata-rata)} \times \text{(Banyaknya data)} \\
+\text{Jumlah nilai} &amp; = 86 \times 8 = 688 \\
+\text{Jumlah nilai sekarang} &amp; = 688 + 100 + 87 = 875 \\
+\text{Banyaknya data sekarang} &amp; = 8 + 2 = 10 \\
+\text{Nilai rata-rata sekarang} &amp;= 875 / 10 = 87,5
+\end{aligned}
+}
+\]</span></p>
+<p>Jadi nilai rata-rata pelajaran Bahasa Indonesia 10 Mahasiswa/i tersebut adalah 87,5.</p>
+</div>
+<div id="nilai-rata-rata-dengan-pengurangan-data" class="section level3">
+<h3><span class="header-section-number">3.1.2</span> Nilai Rata-Rata dengan Pengurangan Data</h3>
+<p>Jika ada pengurangan data maka jumlah nilai dan banyaknya data menjadi berubah. Jika ada pengurangan satu data dengan nilai <span class="math inline">\(a\)</span> maka,</p>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Jumlah nilai sekarang}  &amp; = \text{Jumlah nilai} – a\\
+\text{Banyaknya data sekarang}&amp; = \text{Banyaknya data} – 1
+\end{aligned}
+}
+\]</span></p>
+<p>Contoh lain, misalkan ada penguragan tiga data dengan nilai <span class="math inline">\(a_1 , a_2\)</span> dan <span class="math inline">\(a_3\)</span> maka,</p>
+<p><span class="math display">\[
+\small{
+\begin{aligned}
+\text{Jumlah nilai sekarang} &amp;= \text{Jumlah nilai} – (a_1 + a_2 + a_3) \\
+\text{Banyaknya data sekarang}&amp; = \text{Banyaknya data} – 3
+\end{aligned}
+}
+\]</span></p>
+</div>
 </div>
 <div id="rasio" class="section level2">
 <h2><span class="header-section-number">3.2</span> Rasio</h2>
